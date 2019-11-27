@@ -18,7 +18,7 @@ NEWSPIDER_MODULE = 'springer_scrapy.spiders'
 
 LOG_FILE = './log.log'
 LOG_LEVEL = 'INFO'
-date_count = '11.18_11.xlsx'
+date_count = '11.27_12.xlsx'
 # IMAGES_STORE = './imgages'
 
 USER_AGENT_LIST = [
