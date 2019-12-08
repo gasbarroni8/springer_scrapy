@@ -21,6 +21,16 @@ LOG_LEVEL = 'INFO'
 date_count = '12.7_33.xlsx'
 # IMAGES_STORE = './imgages'
 
+# mongo连接
+MONGO = {
+    'USER':'star1986xk',
+    'PSWD':'good1234',
+    'HOST': '127.0.0.1',
+    'PORT': 27017,
+    'DB': 'springer',
+    'COLLECTION': 'springer'
+}
+
 USER_AGENT_LIST = [
 
     "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; AcooBrowser; .NET CLR 1.1.4322; .NET CLR 2.0.50727)",
@@ -59,14 +69,6 @@ USER_AGENT_LIST = [
     "Mozilla/5.0 (X11; U; Linux x86_64; zh-CN; rv:1.9.2.10) Gecko/20100922 Ubuntu/10.10 (maverick) Firefox/3.6.10",
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36",
 ]
-
-# mongo连接
-MONGO = {
-    'HOST': 'localhost',
-    'PORT': 27017,
-    'DB': 'springer',
-    'COLLECTION': 'springer'
-}
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 # USER_AGENT = 'springer_scrapy (+http://www.yourdomain.com)'

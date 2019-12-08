@@ -18,7 +18,7 @@ class SpringerScrapyPipeline(object):
 class MongoPipeline(object):
     logger = logging.getLogger(__name__)
     def open_spider(self, spider):
-        self.client = pymongo.MongoClient(MONGO['HOST'], MONGO['PORT'])
+        self.client = pymongo.MongoClient('mongodb://{}:{}@{}:{}'.format(MONGO['USER'], MONGO['PSWD'], MONGO['HOST'], MONGO['PORT']))
         self.db = self.client[MONGO['DB']]
         self.collection = self.db[MONGO['COLLECTION']]
 
