@@ -74,3 +74,9 @@ if __name__ == '__main__':
     # r = collection.find({'mail': None}).count()
     # collection.delete_many({'mail': None})
     # print(r)
+
+    #改excel
+    #填日期
+    #search?
+    #search/page/{}?
+    #settings 改变量名
