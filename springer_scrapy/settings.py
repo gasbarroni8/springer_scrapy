@@ -18,7 +18,7 @@ NEWSPIDER_MODULE = 'springer_scrapy.spiders'
 
 LOG_FILE = './log.log'
 LOG_LEVEL = 'INFO'
-date_count = '12.14_20.xlsx'
+date_count = '12.16_28.xlsx'
 # IMAGES_STORE = './imgages'
 
 # mongo连接
